@@ -1,8 +1,13 @@
+#yogaImage {
+  filter: grayscale(100%);
+}
+
 .cards-wrapper {
   display: flex;
   justify-content: center;
 }
 .card img {
+  filter: grayscale(100%);
   max-height: 100%;
   border-radius: 10%;
   display: block;
@@ -34,4 +39,8 @@
   .card img {
     height: 12em;
   }
+}
+
+#painScale {
+  width: 50%;
 }
